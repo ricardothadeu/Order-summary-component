@@ -9,6 +9,3 @@ My goal here is to improve my HTML and CSS skills.
 
 To see this and many other front-end challenges:
 [Frontend Mentor - Challenges](https://www.frontendmentor.io/challenges)
-
-
-
