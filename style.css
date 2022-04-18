@@ -89,6 +89,7 @@ body {
     box-shadow: 0 20px 20px hsl(225, 100%, 94%); 
     margin-bottom: 1.5rem;
 }
+
 .card button:hover{
     cursor: pointer;
     background-color: hsl(224, 23%, 55%);
