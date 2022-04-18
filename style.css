@@ -15,18 +15,18 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(225, 100%, 94%);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .card { 
-    margin: 100px 490px;
+    margin: 6.25rem 30.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 1rem;
-    width: 450px;
-    height: 700px;
+    width: 28.125rem;
+    height: 43.75rem;
     background-color: white;
 }
 
@@ -35,34 +35,34 @@ body {
 }
 
 .card h1 {
-    padding: 50px 0 30px 0;
+    padding: 3.125rem 0 1.875rem 0;
     color: hsl(223, 47%, 23%);
 }
 
 .description {
-    width: 350px;
+    width: 21.875rem;
     color: hsl(224, 23%, 55%);
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     text-align: center;
 }
 
 .info-plan {
-    width: 350px;
+    width: 21.875rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
     border-radius: 1rem;
-    margin-bottom: 30px;
-    padding: 25px
+    margin-bottom: 1.8rem;
+    padding: 1.5rem;
 }
 
 .price {
     display: flex;
     flex-direction: column;
-    padding-right: 90px;
-    padding-left: 20px;
+    padding-right: 5.6rem;
+    padding-left: 1.25rem;
     color: hsl(223, 47%, 23%);
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .card button {
-    width: 350px;
+    width: 21.875rem;
     text-align: center;
     padding: 1rem 0;
     background-color: hsl(245, 75%, 52%);
@@ -86,10 +86,9 @@ body {
     border: none;
     font-weight: 600;
     font-size: 95%;  
-    box-shadow: 0 20px 20px hsl(225, 100%, 94%); 
+    box-shadow: 0 1.25rem 1.25rem hsl(225, 100%, 94%); 
     margin-bottom: 1.5rem;
 }
-
 .card button:hover{
     cursor: pointer;
     background-color: hsl(224, 23%, 55%);
@@ -97,7 +96,7 @@ body {
 
 #cancel-order {
     color: hsl(224, 23%, 55%);
-    padding-bottom: 53px;
+    padding-bottom: 3.3rem;
     text-decoration: none;
     font-weight: 700;
 }
@@ -106,16 +105,51 @@ body {
     color: hsl(223, 47%, 23%);
 }
 
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 900px) {
     body {
+      width: 375px;
       background: url('images/pattern-background-mobile.svg');
       background-size: 100%;
       background-repeat: no-repeat;
+      background-color: hsl(225, 100%, 94%);
     }
+
+    .card {
+        width: 20rem;
+        height: 35.4rem;
+    }
+
+    .card h1 {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    .description {
+        padding: 0 40px 30px;
+        
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .info-plan {
+        width: 17.2rem;
+        padding: 1rem;
+    }
+
+    .price {
+        margin-right: 28px;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .card button {
+        width: 17.2rem;
+    }
+
 }
 
-@media screen and (max-width: 980px) {
-    .card {
-      padding: 0 3rem;
-    }
-}
+
